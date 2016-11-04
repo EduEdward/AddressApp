@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="296.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.PersonEditDialogController">
+<AnchorPane prefHeight="296.0" prefWidth="492.0" styleClass="background" stylesheets="@../../../../../bin/ch/makery/address/view/DarkTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.address.view.PersonEditDialogController">
    <children>
       <GridPane layoutX="129.0" layoutY="28.0" prefHeight="192.0" prefWidth="432.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="28.0">
         <columnConstraints>
@@ -35,10 +35,10 @@
             <TextField fx:id="birthdayField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
          </children>
       </GridPane>
-      <HBox layoutX="274.0" layoutY="208.0" prefHeight="23.0" prefWidth="159.0" spacing="20.0" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="30.0">
+      <HBox layoutX="274.0" layoutY="208.0" prefHeight="33.0" prefWidth="195.0" spacing="20.0" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="30.0">
          <children>
-            <Button mnemonicParsing="false" onAction="#handleOk" prefHeight="25.0" prefWidth="70.0" text="OK" />
-            <Button mnemonicParsing="false" onAction="#handleCancel" prefHeight="25.0" prefWidth="70.0" text="Cancel" />
+            <Button defaultButton="true" mnemonicParsing="false" onAction="#handleOk" prefHeight="33.0" prefWidth="85.0" text="OK" />
+            <Button mnemonicParsing="false" onAction="#handleCancel" prefHeight="33.0" prefWidth="93.0" text="Cancel" />
          </children>
       </HBox>
    </children>
